@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AdaptiveGrid extends StatelessWidget {
   final double minimumWidgetWidth;
-  final List<Widget> children;
+  final List<Widget> children; 
 
   const AdaptiveGrid({super.key, this.minimumWidgetWidth = 100, required this.children});
 
